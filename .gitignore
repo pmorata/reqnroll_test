@@ -1,0 +1,10 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ReqnrollQuickstart.App/bin/Debug/net8.0
+/ReqnrollQuickstart.App/obj
+/reqroll.specs/.vs
+/reqroll.specs/obj
+/netAutomation_ReqNRoll/obj
