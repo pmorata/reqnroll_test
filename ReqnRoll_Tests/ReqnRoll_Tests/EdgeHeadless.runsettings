@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <!-- NUnit adapter -->
+    <NUnit>
+        <NumberOfTestWorkers>24</NumberOfTestWorkers>
+    </NUnit>
+    <!-- General run configuration -->
+    <RunConfiguration>
+        <EnvironmentVariables>
+            <!-- For debugging selectors, it's recommend to set the following environment variable -->
+            <DEBUG>pw:api</DEBUG>            
+            <EmployeeLogin>testUser</EmployeeLogin>
+            <EmployeePassword>testPassword1-</EmployeePassword>
+            <ManagerLogin>admin</ManagerLogin>
+            <ManagerPassword>Sotllo-3072</ManagerPassword>
+            <netOneURL>https://ntone-jdtest.preprod.gospec.net/</netOneURL>
+        </EnvironmentVariables>
+    </RunConfiguration>
+    <!-- Playwright -->
+    <Playwright>
+        <BrowserName>chromium</BrowserName>
+        <ExpectTimeout>5000</ExpectTimeout>
+        <LaunchOptions>
+            <Headless>false</Headless>
+            <Channel>msedge</Channel>
+            <!-- Options: chrome, chromium, msedge, firefox, webkit -->
+        </LaunchOptions>
+    </Playwright>
+</RunSettings>
