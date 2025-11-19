@@ -3,8 +3,6 @@
 ################################################################################
 
 /.vs
-/ReqnrollQuickstart.App/bin/Debug/net8.0
-/ReqnrollQuickstart.App/obj
-/reqroll.specs/.vs
-/reqroll.specs/obj
-/netAutomation_ReqNRoll/obj
+/ReqnRoll_Tests/.vs
+/ReqnRoll_Tests/ReqnRoll_Tests/bin/Debug
+/ReqnRoll_Tests/ReqnRoll_Tests/obj
